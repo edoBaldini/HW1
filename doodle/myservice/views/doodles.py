@@ -7,7 +7,7 @@ doodles = JsonBlueprint('doodles', __name__)
 _ACTIVEPOLLS = {} # list of created polls
 _POLLNUMBER = 0 # index of the last created poll
 
-@doodles.route(/doodles/all_polls) #TODO: complete the decoration
+@doodles.route('/doodles/all_polls') #TODO: complete the decoration
 def all_polls():
 
     if request.method == 'POST':
