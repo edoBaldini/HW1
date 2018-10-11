@@ -1,3 +1,4 @@
+#Edoardo Baldini id: 566186
 from flakon import JsonBlueprint
 from flask import request, jsonify, abort
 from myservice.classes.poll import Poll, NonExistingOptionException, UserAlreadyVotedException
